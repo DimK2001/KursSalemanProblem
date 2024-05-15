@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Genetic
+﻿namespace Genetic
 {
     public class Individual
     {
@@ -35,7 +28,6 @@ namespace Genetic
             foreach (var g in Chromosome.Gens)
             {
                 Random random = new Random();
-                //float probability = random.Next(9000, 9950); //mid 9475
                 float probability = 4;
                 if (random.Next(0, 10) < probability)
                 {

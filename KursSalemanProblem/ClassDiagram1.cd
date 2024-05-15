@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Genetic.Chromosome">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Field Name="Gens" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Chromosome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genetic.EvolutionManager">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="populations" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAEBAAAAAAAAAAAQBAAAQACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EvolutionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genetic.Gen">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAE=</HashCode>
+      <FileName>Gen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genetic.Individual">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAABAAAAAAgAAAAEAAAAAAAAAAAAAAAAAEE=</HashCode>
+      <FileName>Individual.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Chromosome" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Genetic.Population">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <Members>
+      <Field Name="individuals" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAgAAAAIQAA=</HashCode>
+      <FileName>Population.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

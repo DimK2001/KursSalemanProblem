@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Genetic
+﻿namespace Genetic
 {
     public class Gen
     {
-        public double Value;
         public List<int> Exons = new List<int>();
         public Gen(List<int>? exons = null)
         {
